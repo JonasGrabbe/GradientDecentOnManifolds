@@ -2,7 +2,6 @@
 
 ![Jonas_Grabbe_STICKER_with_WHITE_BACKGROUND_The_illustration_rep_3f5fa099-551d-4373-bd21-e28204997242](https://github.com/JonasGrabbe/GradientDecentOnManifolds/assets/77153915/ba0661f8-210f-43a9-ac7d-0ad06540173b)
 
-
 This project focuses on the exploration and implementation of the algorithmic approach of stochastic gradient descent on Riemannian manifolds. We aim to extend the classical gradient descent algorithm, traditionally applied in Euclidean space, to the context of Riemannian manifolds, with the ultimate objective of optimizing cost functions defined on such manifolds.
 
 ### Background
@@ -10,8 +9,11 @@ A Riemannian manifold is a mathematical structure that generalizes the notion of
 
 Stochastic gradient descent is a widely used optimization method in machine learning due to its computational efficiency and scalability to large datasets. Its primary aim is to find the local minima of a cost function, even when evaluations of the function are corrupted by noise. In this project, we aim to extend this optimization method to the case where the function is defined on a Riemannian manifold.
 
-### Project Structure
-The project is organized into the following directories:
+### Key Inspirations
+The work is primarily inspired by the following papers:
+- **"Stochastic gradient descent on Riemannian manifolds"** by Silvere Bonnabel. This paper extends the stochastic gradient descent algorithm to the case where the cost function is defined on a Riemannian manifold, proving its convergence to a critical point of the cost function.
+- **"Min-Max Solutions for Super Sinh-Gordon Equations on Compact Surfaces"** by Aleks Jevnikar, Andrea Malchiodi, and Ruijun Wu. This paper presents the first non-trivial solution of a super sinh-Gordon system on compact surfaces using variational analysis and a linking argument with a suitably defined Nehari manifold.
+- **"Decentralized Riemannian Gradient Descent on the Stiefel Manifold"** by Shixiang Chen, Alfredo Garcia, Mingyi Hong, Shahin Shahrampour. This paper introduces a decentralized Riemannian stochastic gradient method (DRSGD) and decentralized Riemannian gradient tracking algorithm (DRGTA) for distributed optimization on the Stiefel manifold.
 
 ### Project Goals
 The main objectives of this project are as follows:
@@ -21,6 +23,8 @@ The main objectives of this project are as follows:
 - [ ] Investigate the potential for integrating the min-max solutions approach presented by Jevnikar, Malchiodi, and Wu.
 
 
+### Project Structure
+The project is organized into the following directories: TBA
 
 ### References
 [1] Bonnabel, S. (2013). Stochastic gradient descent on Riemannian manifolds. arXiv preprint arXiv:1111.5280. Link
